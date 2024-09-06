@@ -37,10 +37,3 @@ variable "desired_capacity" {
   type        = number
   default     = 1
 }
- 
-variable "target_group_arns" {
-  description = "List of Target Group ARNs for the Auto Scaling Group"
-  type        = list(string)
-}
-
-has context menu
